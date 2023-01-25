@@ -1,28 +1,29 @@
-# big_data_analytics_extension_course
+# Big Data Analytics Extension Course
 
-No dia 09/01, as 19:00h, iniciaremos as aulas do curso de Big Data Analytics Aplicado à Confiabilidade e Manutenção, com o professor Dr. Enrique Drougett. As aulas acontecerão nos dias 09,10,11,23,24,25/01 e 06,07,08/02/2023, das 19:00 as 22:30h, de forma remota. Segue abaixo o link para acesso as aulas e instruções uso de ferramenta:
+- Theme: Neural Networks for Reliability
 
- 
+- Professor: Enrique Andres López Droguett (UCLA)
 
-Link: https://ucla.zoom.us/j/97313833481
+- Workload:  36 h (Jan. and Feb.2023)
 
-Mensagem do professor com instruções:
+- Folder with datasets: [datasets](https://1drv.ms/u/s!AhCR9a-wP7gvhvEJudkLIbpOSPFRhQ?e=YggBAj)
 
- 
-Boa Tarde para todos....
+### Instructions (for Mac and Linux users):
 
+First, install the requirements (preferably in a virtual environment):
 
-Este curso envolve  aprendizagem profundo de máquina via Neural Networks. Nesse contexto, iremos usar uma ferramenta de acesso livre, chamada DataBruin,  desenvolvida aqui na UCLA e que roda em Chrome. Para tanto, vocês precisam instalar essa ferramenta seguindo as instruções na página web da ferramenta, a seguir:
+`python3 -m venv virtual-env`
 
-https://databruin.com/
+Activate the environment:
 
-Há instruções separadas para Windows e para MacOS/Linux. Notem que DataBruin funciona com MacOS - Intel (e não com Apple Silicon - M1/M2).
+`source virtual-env/bin/activate`
 
-Última observação: após a instalação, vocês precisam de um correio GMAIL para usar DataBruin.
+Install the requirements:
 
-Qualquer dúvida, mandar correio:
-eald@ucla.edu
+`pip install -r requirements.txt`
 
-Enrique
+Run and study the jupyter notebook `reboiler_binary_classifier.ipynb`.
 
- 
+### Instructions (for Windows users):
+
+Repeat the procedure above using `conda` instead of `pip`. It's easy to find instructions on how to use `conda` on the internet.
