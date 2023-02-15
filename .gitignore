@@ -2,3 +2,5 @@ databruin/
 logs/
 *.pdf
 *.csv
+*.h5
+*.png
