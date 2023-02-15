@@ -1,6 +1,17 @@
-databruin/
+env/
 logs/
 *.pdf
 *.csv
-*.h5
 *.png
+# weights
+*.h5
+# pipeline
+*.joblib
+# latex 
+*.abs
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.gz
